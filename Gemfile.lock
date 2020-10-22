@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/alphagov/govuk_app_config.git
+  revision: 7b89e39fce2cebe05b77b46748c3d2755d46db82
+  branch: version-2.5.2
+  specs:
+    govuk_app_config (2.5.2)
+      logstasher (>= 1.2.2, < 1.4.0)
+      sentry-raven (~> 3.1.1)
+      statsd-ruby (~> 1.4.0)
+      unicorn (>= 5.4, < 5.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,11 +35,6 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     ffi (1.9.25)
-    govuk_app_config (2.5.1)
-      logstasher (>= 1.2.2, < 1.4.0)
-      sentry-raven (~> 3.1.1)
-      statsd-ruby (~> 1.4.0)
-      unicorn (>= 5.4, < 5.8)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     kgio (2.11.3)
@@ -107,7 +113,7 @@ DEPENDENCIES
   activerecord (~> 6.0.3)
   database_cleaner (= 1.8.5)
   erubis (= 2.7.0)
-  govuk_app_config (~> 2.4)
+  govuk_app_config!
   mr-sparkle (= 0.3.0)
   nokogiri (= 1.10.10)
   optic14n (= 2.0.1)
